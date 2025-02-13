@@ -1,4 +1,4 @@
-# nike
+# Nike
 
 A new Flutter project.
 
