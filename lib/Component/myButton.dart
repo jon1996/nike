@@ -10,7 +10,7 @@ class Mybutton extends StatelessWidget {
   const Mybutton({
     super.key,
     required this.text,
-    this.color = Colors.grey, // Default color
+    this.color = Colors.black, // Default color
     this.width = double.infinity, // Default width
     this.height = 50.0,
     this.onTap, // Default height

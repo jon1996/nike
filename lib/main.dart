@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens/home.dart';
+import 'screens/welcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomePage(),
+      home: WelcomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
